@@ -1,0 +1,105 @@
+[23:45:58] [Server thread/INFO]: Starting minecraft server version 1.8
+[23:46:23] [Server thread/INFO]: Loading properties
+[23:46:24] [Server thread/INFO]: Default game type: SURVIVAL
+[23:46:24] [Server thread/INFO]: Generating keypair
+[23:46:26] [Server thread/INFO]: Starting Minecraft server on *:25565
+[23:46:30] [Server thread/WARN]: Failed to load user banlist: 
+java.io.FileNotFoundException: banned-players.json (The system cannot find the file specified)
+	at java.io.FileInputStream.open(Native Method) ~[?:1.7.0_40]
+	at java.io.FileInputStream.<init>(FileInputStream.java:146) ~[?:1.7.0_40]
+	at com.google.common.io.Files.newReader(Files.java:86) ~[guava-17.0.jar:?]
+	at net.minecraft.server.management.UserList.readSavedFile(UserList.java:195) ~[UserList.class:?]
+	at net.minecraft.server.dedicated.DedicatedPlayerList.loadUserBansList(DedicatedPlayerList.java:121) [DedicatedPlayerList.class:?]
+	at net.minecraft.server.dedicated.DedicatedPlayerList.<init>(DedicatedPlayerList.java:31) [DedicatedPlayerList.class:?]
+	at net.minecraft.server.dedicated.DedicatedServer.startServer(DedicatedServer.java:211) [DedicatedServer.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:438) [MinecraftServer.class:?]
+	at java.lang.Thread.run(Thread.java:724) [?:1.7.0_40]
+[23:46:30] [Server thread/WARN]: Failed to load ip banlist: 
+java.io.FileNotFoundException: banned-ips.json (The system cannot find the file specified)
+	at java.io.FileInputStream.open(Native Method) ~[?:1.7.0_40]
+	at java.io.FileInputStream.<init>(FileInputStream.java:146) ~[?:1.7.0_40]
+	at com.google.common.io.Files.newReader(Files.java:86) ~[guava-17.0.jar:?]
+	at net.minecraft.server.management.UserList.readSavedFile(UserList.java:195) ~[UserList.class:?]
+	at net.minecraft.server.dedicated.DedicatedPlayerList.loadIpBanList(DedicatedPlayerList.java:109) [DedicatedPlayerList.class:?]
+	at net.minecraft.server.dedicated.DedicatedPlayerList.<init>(DedicatedPlayerList.java:33) [DedicatedPlayerList.class:?]
+	at net.minecraft.server.dedicated.DedicatedServer.startServer(DedicatedServer.java:211) [DedicatedServer.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:438) [MinecraftServer.class:?]
+	at java.lang.Thread.run(Thread.java:724) [?:1.7.0_40]
+[23:46:30] [Server thread/WARN]: Failed to load operators list: 
+java.io.FileNotFoundException: ops.json (The system cannot find the file specified)
+	at java.io.FileInputStream.open(Native Method) ~[?:1.7.0_40]
+	at java.io.FileInputStream.<init>(FileInputStream.java:146) ~[?:1.7.0_40]
+	at com.google.common.io.Files.newReader(Files.java:86) ~[guava-17.0.jar:?]
+	at net.minecraft.server.management.UserList.readSavedFile(UserList.java:195) ~[UserList.class:?]
+	at net.minecraft.server.dedicated.DedicatedPlayerList.loadOpsList(DedicatedPlayerList.java:133) [DedicatedPlayerList.class:?]
+	at net.minecraft.server.dedicated.DedicatedPlayerList.<init>(DedicatedPlayerList.java:35) [DedicatedPlayerList.class:?]
+	at net.minecraft.server.dedicated.DedicatedServer.startServer(DedicatedServer.java:211) [DedicatedServer.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:438) [MinecraftServer.class:?]
+	at java.lang.Thread.run(Thread.java:724) [?:1.7.0_40]
+[23:46:30] [Server thread/WARN]: Failed to load white-list: 
+java.io.FileNotFoundException: whitelist.json (The system cannot find the file specified)
+	at java.io.FileInputStream.open(Native Method) ~[?:1.7.0_40]
+	at java.io.FileInputStream.<init>(FileInputStream.java:146) ~[?:1.7.0_40]
+	at com.google.common.io.Files.newReader(Files.java:86) ~[guava-17.0.jar:?]
+	at net.minecraft.server.management.UserList.readSavedFile(UserList.java:195) ~[UserList.class:?]
+	at net.minecraft.server.dedicated.DedicatedPlayerList.readWhiteList(DedicatedPlayerList.java:157) [DedicatedPlayerList.class:?]
+	at net.minecraft.server.dedicated.DedicatedPlayerList.<init>(DedicatedPlayerList.java:36) [DedicatedPlayerList.class:?]
+	at net.minecraft.server.dedicated.DedicatedServer.startServer(DedicatedServer.java:211) [DedicatedServer.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:438) [MinecraftServer.class:?]
+	at java.lang.Thread.run(Thread.java:724) [?:1.7.0_40]
+[23:46:30] [Server thread/INFO]: Preparing level "world"
+[23:46:40] [Server thread/INFO]: Preparing start region for level 0
+[23:46:41] [Server thread/INFO]: Preparing spawn area: 0%
+[23:46:42] [Server thread/INFO]: Preparing spawn area: 1%
+[23:46:44] [Server thread/INFO]: Preparing spawn area: 4%
+[23:46:45] [Server thread/INFO]: Preparing spawn area: 5%
+[23:46:46] [Server thread/INFO]: Preparing spawn area: 6%
+[23:46:47] [Server thread/INFO]: Preparing spawn area: 6%
+[23:46:48] [Server thread/INFO]: Preparing spawn area: 9%
+[23:46:49] [Server thread/INFO]: Preparing spawn area: 11%
+[23:46:50] [Server thread/INFO]: Preparing spawn area: 12%
+[23:46:51] [Server thread/INFO]: Preparing spawn area: 13%
+[23:46:53] [Server thread/INFO]: Preparing spawn area: 17%
+[23:46:54] [Server thread/INFO]: Preparing spawn area: 21%
+[23:46:55] [Server thread/INFO]: Preparing spawn area: 22%
+[23:46:56] [Server thread/INFO]: Preparing spawn area: 27%
+[23:46:57] [Server thread/INFO]: Preparing spawn area: 31%
+[23:46:59] [Server thread/INFO]: Preparing spawn area: 34%
+[23:47:00] [Server thread/INFO]: Preparing spawn area: 39%
+[23:47:01] [Server thread/INFO]: Preparing spawn area: 44%
+[23:47:02] [Server thread/INFO]: Preparing spawn area: 47%
+[23:47:03] [Server thread/INFO]: Preparing spawn area: 51%
+[23:47:04] [Server thread/INFO]: Preparing spawn area: 53%
+[23:47:06] [Server thread/INFO]: Preparing spawn area: 56%
+[23:47:07] [Server thread/INFO]: Preparing spawn area: 56%
+[23:47:08] [Server thread/INFO]: Preparing spawn area: 57%
+[23:47:09] [Server thread/INFO]: Preparing spawn area: 58%
+[23:47:11] [Server thread/INFO]: Preparing spawn area: 59%
+[23:47:12] [Server thread/INFO]: Preparing spawn area: 60%
+[23:47:14] [Server thread/INFO]: Preparing spawn area: 64%
+[23:47:15] [Server thread/INFO]: Preparing spawn area: 65%
+[23:47:16] [Server thread/INFO]: Preparing spawn area: 66%
+[23:47:17] [Server thread/INFO]: Preparing spawn area: 69%
+[23:47:18] [Server thread/INFO]: Preparing spawn area: 71%
+[23:47:20] [Server thread/INFO]: Preparing spawn area: 75%
+[23:47:21] [Server thread/INFO]: Preparing spawn area: 80%
+[23:47:22] [Server thread/INFO]: Preparing spawn area: 80%
+[23:47:23] [Server thread/INFO]: Preparing spawn area: 82%
+[23:47:25] [Server thread/INFO]: Preparing spawn area: 84%
+[23:47:27] [Server thread/INFO]: Preparing spawn area: 89%
+[23:47:28] [Server thread/INFO]: Preparing spawn area: 92%
+[23:47:29] [Server thread/INFO]: Preparing spawn area: 96%
+[23:47:30] [Server thread/INFO]: Preparing spawn area: 99%
+[23:47:31] [Server thread/INFO]: Done (60.198s)! For help, type "help" or "?"
+[23:47:31] [Server Watchdog/FATAL]: A single server tick took 94.70 seconds (should be max 0.05)
+[23:47:31] [Server Watchdog/FATAL]: Considering it to be crashed, server will forcibly shutdown.
+[23:47:31] [Server Watchdog/ERROR]: This crash report has been saved to: C:\Users\User\Documents\Daftcraft 1.8\eclipse\.\crash-reports\crash-2015-01-05_23.47.31-server.txt
+[23:47:35] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2614ms behind, skipping 52 tick(s)
+[23:47:52] [Server thread/INFO]: --- Showing help page 1 of 9 (/help <page>) ---
+[23:47:52] [Server thread/INFO]: /achievement <give|take> <stat_name|*> [player]
+[23:47:52] [Server thread/INFO]: /ban <name> [reason ...]
+[23:47:52] [Server thread/INFO]: /ban-ip <address|name> [reason ...]
+[23:47:52] [Server thread/INFO]: /banlist [ips|players]
+[23:47:52] [Server thread/INFO]: /blockdata <x> <y> <z> <dataTag>
+[23:47:52] [Server thread/INFO]: /clear [player] [item] [data] [maxCount] [dataTag]
+[23:47:52] [Server thread/INFO]: /clone <x1> <y1> <z1> <x2> <y2> <z2> <x> <y> <z> [mode]
