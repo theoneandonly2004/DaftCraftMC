@@ -7,5 +7,4 @@ public class DaftcraftInfo
 {
    public static final int DIGGERSLOTS=5;
 
-
 }//class
